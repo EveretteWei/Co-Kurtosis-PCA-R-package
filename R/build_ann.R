@@ -1,6 +1,6 @@
 #' Build an Artificial Neural Network (ANN) Model for reconstruction
 #'
-#' Constructs and compiles a sequential ANN model using the \code{keras3} package. TThe model allows users to define the number and configuration of hidden layers, the output layer activation function, and the learning rate for the optimizer.
+#' Constructs and compiles a sequential ANN model using the \code{keras3} package. The model allows users to define the number and configuration of hidden layers, the output layer activation function, and the learning rate for the optimizer.
 #'
 #' @param input_dim An integer specifying the number of input features.
 #' @param output_dim An integer specifying the number of units in the output layer.
