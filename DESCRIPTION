@@ -1,0 +1,20 @@
+Package: cokpca
+Type: Package
+Title: Co-Kurtosis Principal Component Analysis
+Version: 0.1.0
+Author: Ziheng Wei; Xincheng Zeng; Jialiang Song
+Maintainer: Ziheng Wei <zihwei@umich.edu>
+Description: Implements Co-Kurtosis Principal Component Analysis (Co-Kurtosis PCA) for dimensionality reduction and data reconstruction. Supports both linear and non-linear (ANN-based) reconstruction methods, with functionality for cumulative contribution analysis, contribution plotting, and loadings visualization.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.0.0)
+Imports:
+    keras3
+LinkingTo: Rcpp
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+RoxygenNote: 7.3.2
