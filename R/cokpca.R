@@ -1,6 +1,6 @@
 #' Co-Kurtosis PCA
 #'
-#' Performs Co-Kurtosis PCA on the provided dataset with options for data standardization and reconstruction methods (linear or ANN).
+#' Performs Co-Kurtosis PCA on the provided dataset with options for data reconstruction methods (linear or ANN).
 #'
 #' @param df A matrix or dataframe of input data.
 #' @param k (Optional) Number of principal components to retain in reduction.
