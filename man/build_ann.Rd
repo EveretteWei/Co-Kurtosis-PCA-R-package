@@ -40,7 +40,7 @@ The default configuration includes:
 A compiled \code{keras} model ready for training.
 }
 \description{
-Constructs and compiles a sequential ANN model using the \code{keras3} package. TThe model allows users to define the number and configuration of hidden layers, the output layer activation function, and the learning rate for the optimizer.
+Constructs and compiles a sequential ANN model using the \code{keras3} package. The model allows users to define the number and configuration of hidden layers, the output layer activation function, and the learning rate for the optimizer.
 }
 \details{
 The function builds a customable sequential ANN model where users can:

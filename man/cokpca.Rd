@@ -72,7 +72,7 @@ A list containing:
 }
 }
 \description{
-Performs Co-Kurtosis PCA on the provided dataset with options for data standardization and reconstruction methods (linear or ANN).
+Performs Co-Kurtosis PCA on the provided dataset with options for data reconstruction methods (linear or ANN).
 }
 \details{
 This function performs dimensionality reduction using Co-Kurtosis PCA and provides options for reconstruction via a linear method or an Artificial Neural Network (ANN). When using the ANN reconstruction method, users can customize the architecture by defining the number and configuration of hidden layers, the optimizer learning rate, and the output layer activation function.
